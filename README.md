@@ -7,3 +7,15 @@ Forward Propagation = Z=WX+b  A=G(Z).
 The gradients are propagated backward through the network TO CALCULATE Backward Propagation.
 Loss Function: Measures the discrepancy between predicted and actual outputs during training.we use  cross entropy function in this file.
 Accuracy: Measures the percentage of correctly classified instances in the test dataset.
+
+
+
+
+
+
+
+Principal Component Analysis (PCA) is a dimensionality reduction technique that aims to find the orthogonal axes (principal components) that capture the maximum variance in the data. It achieves this by decomposing the covariance matrix of the standardized data into its eigenvectors and eigenvalues. Mathematically, PCA involves finding the eigenvectors V and eigenvalues λ of the covariance matrix C, The principal components are then formed by selecting the top k eigenvectors corresponding to the largest eigenvalues. Finally, the original data is transformed into the new coordinate system spanned by these principal components by projecting it onto them using the equation Y=XV, where Y is the transformed data matrix and V is the matrix containing the selected eigenvectors.
+
+
+
+
