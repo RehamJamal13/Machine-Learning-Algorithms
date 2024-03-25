@@ -43,7 +43,8 @@ Gradient Descent is an optimization algorithm used to minimize the loss function
 Activation Function: Sigmoid
 The sigmoid function is a commonly used activation function in neural networks. It squashes the input values between 0 and 1, making it useful for binary classification problems. The sigmoid function is defined as:
 
- 
+ ![1_Xu7B5y9gp0iL5ooBj7LtWw](https://github.com/RehamJamal13/Machine-Learning-Algorithms/assets/102676168/3a256fbe-8f10-44aa-9475-39d635c0d4a1)
+
 
 Loss Function: Cross-Entropy
 The cross-entropy loss function is often used in classification problems. It measures the difference between the predicted probability distribution and the true distribution of the labels. For binary classification, the cross-entropy loss function is defined as:
