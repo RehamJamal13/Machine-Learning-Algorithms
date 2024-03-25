@@ -1,11 +1,24 @@
 Neural Network Architecture 
 
-
-![Colored_neural_network svg](https://github.com/RehamJamal13/Machine-Learning-Algorithms/assets/102676168/33518920-ed38-4cea-acab-7918068f6c32)
-
-
 Neural Network are mathematical models that use learning algorithms inspired by the brain to store information. Since neural networks are used in machines, they are collectively called an ‘artificial neural network.’
 They are used to process complex data and non linear separable data and make predictions by learning from examples.
+
+![Colored_neural_network svg](https://github.com/RehamJamal13/Machine-Learning-Algorithms/assets/102676168/33518920-ed38-4cea-acab-7918068f6c32)
+  This repository provides a simple implementation of a neural network and the backpropagation algorithm. Neural networks are a class of machine learning models inspired by the biological structure of the brain. They consist of interconnected nodes, called neurons, organized in layers. Each neuron receives input, performs some computation, and produces an output.
+
+Neural Network Implementation
+The neural network implemented in this repository consists of an input layer, one hidden layers, and an output layer. Each layer is composed of neurons, and connections between neurons are represented by weights. The network can be customized by specifying the number of neurons in each layer and the activation function used.
+
+## Forward Pass
+
+The forward pass involves computing the output of the neural network given an input. It consists of the following steps:
+
+1. **Input Layer**: The input data is fed into the neural network.
+2. **Hidden Layers**: The input is passed through one or more hidden layers, where each neuron computes a weighted sum of its inputs and applies the activation function (sigmoid in this case).
+3. **Output Layer**: The output of the last hidden layer is passed through the output layer, which produces the final output of the neural network.
+
+
+
 Neural networks can handle nonlinear algorithms, making them suitable for a wide range of tasks in machine learning.
 Components of a Neural Network :Neurons (Nodes),Layers,Weights and Biases,Activation Functions.
 Working Mechanism: Forward and Backward Propagation.
