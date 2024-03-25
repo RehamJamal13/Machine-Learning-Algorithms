@@ -43,10 +43,8 @@ Cross-entropy loss measures the difference between predicted and true label dist
 ## Weight Update
 
 The weight update step adjusts weights based on computed gradients using the learning rate.
-1.**W1 = W1 - alpha*dW1
-2.**W2 = W2 - alpha*dW2
-3.**b1 = b1 - alpha*db1
-4.**b2 = b2 - alpha*db2
+W1 = W1 - alpha * dW1
+W1 = W1 - alpha * dW1
 
 
 ## Usage
