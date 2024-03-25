@@ -17,6 +17,41 @@ The forward pass involves computing the output of the neural network given an in
 2. **Hidden Layers**: The input is passed through one or more hidden layers, where each neuron computes a weighted sum of its inputs and applies the activation function (sigmoid in this case).
 3. **Output Layer**: The output of the last hidden layer is passed through the output layer, which produces the final output of the neural network.
 
+![Feed-forward-neural-network-with-sigmoid-activation-function-X-i-i-1P-input](https://github.com/RehamJamal13/Machine-Learning-Algorithms/assets/102676168/3169222c-b4ed-45a3-8fcd-9715152c51cc)
+
+Backpropagation
+Backpropagation is an algorithm used to train neural networks. It involves propagating errors backward through the network, adjusting the weights of connections between neurons to minimize the difference between the actual output and the desired output.
+
+## Implementation Overview
+
+The provided code consists of the following components:
+
+- **Data Generation**: Synthetic data is generated for binary classification.
+- **Activation Function**: The sigmoid function is used as the activation function.
+- **Loss Function**: Cross-entropy loss is utilized as the loss function.
+- **Forward Pass**: Computes forward pass through the neural network.
+- **Backward Pass**: Computes backward pass for updating parameters.
+- **Parameter Initialization**: Random initialization of weights and biases.
+- **Accuracy Calculation**: Computes accuracy of predictions.
+- **Training Loop**: Iteratively trains the neural network using backpropagation.
+- **Plot Decision Boundary**: Visualizes decision boundary of the trained model.
+
+## Gradient Descent
+
+Gradient Descent is an optimization algorithm used to minimize the loss function by iteratively adjusting the parameters of the neural network in the direction of the negative gradient. This process continues until convergence or a predefined number of iterations.
+
+Activation Function: Sigmoid
+The sigmoid function is a commonly used activation function in neural networks. It squashes the input values between 0 and 1, making it useful for binary classification problems. The sigmoid function is defined as:
+
+ 
+
+Loss Function: Cross-Entropy
+The cross-entropy loss function is often used in classification problems. It measures the difference between the predicted probability distribution and the true distribution of the labels. For binary classification, the cross-entropy loss function is defined as:
+
+
+​
+  is the predicted probability of the positive class.
+
 
 
 Neural networks can handle nonlinear algorithms, making them suitable for a wide range of tasks in machine learning.
