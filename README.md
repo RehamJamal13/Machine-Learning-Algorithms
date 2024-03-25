@@ -49,9 +49,13 @@ The sigmoid function is a commonly used activation function in neural networks. 
 Loss Function: Cross-Entropy
 The cross-entropy loss function is often used in classification problems. It measures the difference between the predicted probability distribution and the true distribution of the labels. For binary classification, the cross-entropy loss function is defined as:
 
+![images](https://github.com/RehamJamal13/Machine-Learning-Algorithms/assets/102676168/9a9f3180-84c3-4eb5-a4f2-08f40e5adc08)
 
-​
-  is the predicted probability of the positive class.
+
+​## Weight Update
+
+The weight update step adjusts the weights of connections between neurons based on the computed gradients. It involves updating the weights and biases of the neural network using the gradients and a learning rate.
+
 
 
 
