@@ -43,8 +43,20 @@ Cross-entropy loss measures the difference between predicted and true label dist
 ## Weight Update
 
 The weight update step adjusts weights based on computed gradients using the learning rate.
+Weight Update:
+# Weight Update
+# 1. W1 Update: Adjust the weights of the first layer using the gradient and the learning rate.
 W1 = W1 - alpha * dW1
-W1 = W1 - alpha * dW1
+
+# 2. W2 Update: Adjust the weights of the second layer using the gradient and the learning rate.
+W2 = W2 - alpha * dW2
+
+# 3. b1 Update: Adjust the biases of the first layer using the gradient and the learning rate.
+b1 = b1 - alpha * db1
+
+# 4. b2 Update: Adjust the biases of the second layer using the gradient and the learning rate.
+b2 = b2 - alpha * db2
+
 
 
 ## Usage
